@@ -14,6 +14,7 @@ public class C02_DriverMethods {
                                                                          // sayfanın title'ını verir.
         System.out.println("Amazon Actual Url :"+ driver.getCurrentUrl()); // Url verir
         driver.get("https://techproeducation.com");
+        String amazonWindowHandle = driver.getWindowHandle();
         System.out.println("Techproed sayfa başlığı :"+ driver.getTitle());
 
         //getCurrentUrl  Gidilen sayfanın Url'ini verir
