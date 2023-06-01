@@ -1,4 +1,4 @@
-package odevler;
+package techproed.day02_DriverMethods;
 
 public class Odev2 {
     public static void main(String[] args) {
